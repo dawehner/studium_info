@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.params=artist\ title\ duration
+comment0.target=Song(String,\ String,\ int)
+numComments=1

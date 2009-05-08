@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=kontostand\ guthabenzins\ uberzugszins
+comment0.target=GiroKonto(double,\ double,\ double)
+comment1.target=double\ calculateInterest()
+comment2.params=val
+comment2.target=double\ deposit(double)
+comment3.params=val
+comment3.target=double\ withdraw(double)
+comment4.target=void\ accountWithInterest()
+numComments=5

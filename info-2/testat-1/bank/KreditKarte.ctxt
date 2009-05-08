@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=umsatz\ kreditkartentyp
+comment0.target=KreditKarte(double,\ KreditKartenTyp)
+comment1.target=void\ updateCard()
+numComments=2

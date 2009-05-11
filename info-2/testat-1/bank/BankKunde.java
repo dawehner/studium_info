@@ -12,13 +12,21 @@ public class BankKunde {
       this.kreditkarte = kreditkarte;
   }
   
-  public GiroKonto deposit(double val) {
-      this.girokonto.deposit(val);
-      return this.girokonto;
+  // Bucht etwas vom Konto des Bannkunden ab
+  public BankKunde deposit(double value) {
+      return new BankKunde(
+        this.name,
+        this.girokonto.deposit(value),
+        this.kreditkarte
+      );
   }
   
-  public void annualUpdate() {
-      girokonto.accountWithInterest();
-      kreditkarte.updateCard();
+  // macht das jährliche update
+  public BankKunde annualUpdate() {
+    return new BankKunde(
+      this.name,
+      this.girokonto.accountWithInterest(),
+      this.kreditkarte.updateCard()
+    );
   }
 }

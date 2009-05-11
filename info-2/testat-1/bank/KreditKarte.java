@@ -11,19 +11,26 @@ public class KreditKarte {
       this.kreditkartentyp = kreditkartentyp;
   }
   
-  public void updateCard() {
+  public KreditKarte updateCard() {
       
       // update kreditkartentyp based on umsatz;
       if (this.umsatz <= 20000) {
-          this.kreditkartentyp = kreditkartentyp.PLASTIK;
+         return new KreditKarte(
+           0.0,
+           KreditKartenTyp.PLASTIK
+         );
       }
       else if(this.umsatz <= 200000) {
-          this.kreditkartentyp = kreditkartentyp.GOLD;
+         return new KreditKarte(
+           0.0,
+           KreditKartenTyp.GOLD
+         );
       }
       else {
-         this.kreditkartentyp = kreditkartentyp.PLATIN;
+         return new KreditKarte(
+           0.0,
+           KreditKartenTyp.PLATIN
+         );
       }
-      
-      this.umsatz = 0.0;
   }
 }

@@ -1,6 +1,6 @@
 
 
 // Interface für Basiswerte
-public interface IBasisWert{
+public interface IBasisWert extends ITerm{
 
 }

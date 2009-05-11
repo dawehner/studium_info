@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=expression
+comment0.target=UnaryMinus(IExpression)
+comment1.target=double\ evaluate()
+numComments=2

@@ -1,6 +1,5 @@
 #BlueJ class context
 comment0.target=void\ calculateInterest()
 comment1.target=void\ deposit()
-comment2.target=void\ withdraw()
-comment3.target=void\ accountWithInterest()
-numComments=4
+comment2.target=void\ accountWithInterest()
+numComments=3

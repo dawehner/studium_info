@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=leftExpr\ rightExpr
+comment0.target=Minus(IExpression,\ IExpression)
+comment1.target=double\ evaluate()
+numComments=2

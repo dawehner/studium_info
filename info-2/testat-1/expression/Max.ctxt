@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=val1\ val2\ val3
+comment0.target=Max(IExpression,\ IExpression,\ IExpression)
+comment1.params=one\ two
+comment1.target=double\ max_single(double,\ double)
+comment2.target=double\ evaluate()
+numComments=3

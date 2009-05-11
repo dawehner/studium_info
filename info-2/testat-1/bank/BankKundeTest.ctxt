@@ -1,2 +1,4 @@
 #BlueJ class context
-numComments=0
+comment0.target=void\ deposit()
+comment1.target=void\ annualUpdate()
+numComments=2

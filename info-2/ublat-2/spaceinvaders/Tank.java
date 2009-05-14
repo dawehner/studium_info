@@ -1,3 +1,5 @@
+import colors.*;
+import geometry.*;
 
 
 // Kurzbeschreibung

@@ -1,4 +1,5 @@
-
+import colors.*;
+import geometry.*;
 
 // Kurzbeschreibung
 public class Alien {

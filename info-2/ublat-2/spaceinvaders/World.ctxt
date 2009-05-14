@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.params=alien\ bomb\ tank\ shot\ bunker\ color\ measure
+comment0.target=World(Alien,\ Bomb,\ Tank,\ Shot,\ Bunker,\ IColor,\ Posn)
+numComments=1

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=name\ year\ mother\ father
+comment0.target=Person(String,\ int,\ IEntry,\ IEntry)
+comment1.target=boolean\ hasKnownParents()
+comment2.target=boolean\ isKnownPerson()
+comment3.target=IEntry\ getMother()
+comment4.target=IEntry\ getFather()
+comment5.target=int\ numberOfKnownAncestors()
+comment5.text=boolean\ isRelatedTo(IEntry\ Person)\ {\n}\n\n
+numComments=6

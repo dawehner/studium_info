@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.target=boolean\ isKnownPerson()
+comment1.target=int\ numberOfKnownAncestors()
+numComments=2

@@ -45,6 +45,6 @@ public class Person {
             KnownAncestors += this.father.numberOfKnownAncestors() + 1;
         }
         
-        return KnwonAncestors;
+        return KnownAncestors;
     }
 }

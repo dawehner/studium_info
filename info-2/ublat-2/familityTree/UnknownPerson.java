@@ -1,12 +1,12 @@
 
 
 // Kurzbeschreibung
-public class UnknownPerson extends IEntry{
-    boolean isKnownPerson() {
+public class UnknownPerson implements IEntry{
+    public boolean isKnownPerson() {
         return false;
     }
     
-    int numberOfKnownAncestors() {
+    public int numberOfKnownAncestors() {
         return 0;
     }
 }

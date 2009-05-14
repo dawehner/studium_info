@@ -1,0 +1,6 @@
+
+
+// Kurzbeschreibung
+public interface ICode {
+
+}

@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=boolean\ isBetaRedex()
+comment1.target=boolean\ isAbstraktion()
+comment2.params=value
+comment2.target=Boolean(boolean)
+numComments=3

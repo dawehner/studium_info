@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=first\ second\ third
+comment0.target=Triple(int,\ int,\ int)
+comment1.target=boolean\ firstBetween()
+comment2.target=boolean\ firstMinMax()
+comment3.target=boolean\ teilbarFirst()
+comment4.target=boolean\ nr4()
+comment5.target=boolean\ isPrim()
+numComments=6

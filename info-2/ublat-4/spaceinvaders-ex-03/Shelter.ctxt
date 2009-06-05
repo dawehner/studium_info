@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=position\ height\ health
+comment0.target=Shelter(int,\ int,\ int)
+comment1.params=c
+comment1.target=boolean\ draw(Canvas)
+numComments=2

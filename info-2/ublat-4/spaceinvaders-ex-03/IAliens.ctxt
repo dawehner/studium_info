@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=c
+comment0.target=boolean\ draw(Canvas)
+comment1.target=void\ updatePosn()
+comment2.target=Alien\ lastElement()
+comment3.target=Alien\ firstElement()
+comment4.params=speed
+comment4.target=void\ setSpeed(Posn)
+numComments=5

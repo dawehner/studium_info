@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=first\ rest
+comment0.target=PairShelter(Shelter,\ IShelters)
+comment1.params=c
+comment1.target=boolean\ draw(Canvas)
+numComments=2

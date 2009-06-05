@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=EmptyBomb()
+comment1.params=c
+comment1.target=boolean\ draw(Canvas)
+numComments=2

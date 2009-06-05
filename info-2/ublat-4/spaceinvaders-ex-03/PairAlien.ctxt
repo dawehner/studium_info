@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=first\ rest
+comment0.target=PairAlien(Alien,\ IAliens)
+comment1.params=c
+comment1.target=boolean\ draw(Canvas)
+comment2.target=void\ updatePosn()
+numComments=3

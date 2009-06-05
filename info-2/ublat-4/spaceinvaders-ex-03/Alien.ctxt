@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=position\ velocity\ speed
+comment0.target=Alien(Posn,\ int,\ Posn)
+comment1.params=c
+comment1.target=boolean\ draw(Canvas)
+comment2.params=speed
+comment2.target=void\ SetSpeed(Posn)
+comment2.text=\n@todo\nNeeds\ testing.\n\n
+comment3.target=void\ updatePosn()
+numComments=4

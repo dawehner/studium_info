@@ -11,4 +11,12 @@ public class EmptyShelter implements IShelters{
     public boolean draw(Canvas c){
         return true;
     }
+    
+    
+    public Shelter first() {
+        return new Shelter(0, 0, 0);
+    }
+    public IShelters rest() {
+        return this;
+    }
 }

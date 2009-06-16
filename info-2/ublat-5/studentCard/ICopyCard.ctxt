@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=seiten
+comment0.target=void\ copy(int)
+comment1.target=String\ getName()
+comment2.target=int\ getId()
+comment3.target=IMoneyCard\ getMoneycard()
+numComments=4

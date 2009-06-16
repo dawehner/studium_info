@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=snake\ time
+comment0.target=SnakeWorld(ISnake,\ int)
+comment1.target=boolean\ draw()
+comment2.params=s
+comment2.target=World\ onKeyEvent(String)
+comment3.target=World\ onTick()
+comment4.target=boolean\ start()
+numComments=5

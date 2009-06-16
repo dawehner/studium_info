@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=pos\ direction
+comment0.target=SnakeHead(Posn,\ Direction)
+comment1.target=Posn\ position()
+comment2.params=c
+comment2.target=boolean\ draw(Canvas)
+comment3.target=ISnake\ move()
+comment4.target=SnakeLink.RelativePosition\ nextRelativePosition()
+comment5.params=d
+comment5.target=ISnake\ changeDirection(SnakeHead.Direction)
+comment6.target=boolean\ eatsItself()
+comment7.target=SnakeHead\ head()
+numComments=8

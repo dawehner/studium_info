@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=SIZE
+comment0.target=ASnake(int)
+comment1.target=int\ size()
+comment2.target=ISnake\ extend()
+comment3.target=Posn\ center()
+numComments=4

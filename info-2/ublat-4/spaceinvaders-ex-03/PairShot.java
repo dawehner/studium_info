@@ -16,4 +16,11 @@ public class PairShot implements IShots{
     public boolean draw(Canvas c){
         return this.first.draw(c) && this.rest.draw(c);
     }
+    
+    public void updatePosn() {
+/*        if (this.first.isLanded()) {
+            this.rest*/
+        this.first.updatePosn();
+        this.rest.updatePosn();
+    }
 }

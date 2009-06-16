@@ -2,4 +2,6 @@
 comment0.target=EmptyShelter()
 comment1.params=c
 comment1.target=boolean\ draw(Canvas)
-numComments=2
+comment2.target=Shelter\ first()
+comment3.target=IShelters\ rest()
+numComments=4

@@ -1,4 +1,12 @@
 #BlueJ class context
 comment0.params=c
 comment0.target=boolean\ draw(Canvas)
-numComments=1
+comment1.target=void\ updatePosn()
+comment2.target=boolean\ isLanded()
+comment3.params=shelters
+comment3.target=boolean\ hitsWalls(IShelters)
+comment4.params=bomb
+comment4.target=IBombs\ removeBomb(Bomb)
+comment5.target=Bomb\ first()
+comment6.target=IBombs\ rest()
+numComments=7

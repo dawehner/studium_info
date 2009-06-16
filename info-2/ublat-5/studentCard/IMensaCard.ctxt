@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=void\ eatMainMenu()
+comment1.params=weight
+comment1.target=void\ eatSalad(double)
+comment2.target=String\ getName()
+comment3.target=int\ getId()
+comment4.target=IMoneyCard\ getMoneycard()
+numComments=5

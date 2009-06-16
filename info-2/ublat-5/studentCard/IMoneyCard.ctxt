@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=double\ getGuthaben()
+comment1.params=guthaben
+comment1.target=IMoneyCard\ setGuthaben(double)
+numComments=2

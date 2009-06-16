@@ -16,4 +16,11 @@ public class PairShelter implements IShelters{
     public boolean draw(Canvas c){
         return this.first.draw(c) && this.rest.draw(c);
     }    
+    
+    public Shelter first() {
+        return this.first;
+    }
+    public IShelters rest() {
+        return this.rest;
+    }
 }

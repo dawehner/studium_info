@@ -8,7 +8,7 @@ public class SpaceInvadersTest extends de.tuebingen.informatik.Test {
     // der Beispiel-Screenshot vom Übungsblatt mit Kanone, Aliens,
     // Schutzwällen, Schüssen und Bomben
     
-    Posn alienspeed = new Posn(1, 0); // nur in x richtung
+    Posn alienspeed = new Posn(20, 0); // nur in x richtung
 
     Canon a = new Canon(160, 500+10 - (500 / 6), 10);
     Alien u = new Alien(new Posn(150,50), 2, alienspeed);
@@ -60,6 +60,11 @@ public class SpaceInvadersTest extends de.tuebingen.informatik.Test {
     @org.junit.Test
     public void testEvalConst() {
         checkExpect(w.bigBang(500,500,0.06), true);
+    }
+    
+    @org.junit.Test
+    public void removeBomb() {
+        checkExpect(bombs.removeBomb(b), new PairBomb(b2, new PairBomb(b3, new EmptyBomb())));
     }
     
 }

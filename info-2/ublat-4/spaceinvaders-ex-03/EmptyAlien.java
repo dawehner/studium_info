@@ -15,14 +15,28 @@ public class EmptyAlien implements IAliens{
     public void updatePosn() {
     }
     
-    public IAlien lastElement() {
-        return this;
+    public Alien lastElement() {
+        return new Alien(new Posn(0, 0), 10, new Posn(1, 1));
     }
     
-    public IAlien firstElement() {
+    /*public Alien firstElement() {
         return new EmptyAlien();
+    }*/
+    public void setSpeed(Posn speed) {
     }
     
-    public void setSpeed(Posn speed) {
+    public int count() {
+        return 0;
+    }
+    
+    public void addY(int value) {
+    }
+    
+    public boolean isLanded() {
+        return false;
+    }
+    
+    public PairShot randomShot(PairShot shots) {
+        return shots;
     }
 }

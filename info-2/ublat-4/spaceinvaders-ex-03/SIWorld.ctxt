@@ -3,6 +3,6 @@ comment0.params=aliens\ canon\ shots\ bombs\ shelters
 comment0.target=SIWorld(IAliens,\ Canon,\ IShots,\ IBombs,\ IShelters)
 comment1.target=boolean\ draw()
 comment2.target=World\ onTick()
-comment3.params=k
+comment3.params=s
 comment3.target=World\ onKeyEvent(String)
 numComments=4

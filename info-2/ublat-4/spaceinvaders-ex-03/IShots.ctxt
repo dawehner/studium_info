@@ -1,4 +1,5 @@
 #BlueJ class context
 comment0.params=c
 comment0.target=boolean\ draw(Canvas)
-numComments=1
+comment1.target=void\ updatePosn()
+numComments=2

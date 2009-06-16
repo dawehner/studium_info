@@ -2,6 +2,7 @@ import colors.*;
 import draw.*;
 import geometry.*;
 
+
 // Gemeinsamkeiten aller Spielobjekte
 public abstract class AGameObject implements IGameObject{
 
@@ -16,4 +17,14 @@ public abstract class AGameObject implements IGameObject{
     }
     
     public abstract boolean draw(Canvas c);
+    
+    public boolean hit(AGameObject igo) {
+        double max_abstand = 10;
+        return this.distance(this.position, igo.position) < max_abstand;
+    }
+    
+    public double distance(Posn pos1, Posn pos2) {
+        return Math.sqrt((pos1.x - pos2.x) * (pos1.x - pos2.x)
+                         + (pos1.y - pos2.y) * (pos1.y - pos2.y));
+    }
 }

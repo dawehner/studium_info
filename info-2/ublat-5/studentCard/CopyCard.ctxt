@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=name\ id\ moneycard
+comment0.target=CopyCard(String,\ int,\ IMoneyCard)
+comment1.params=seiten
+comment1.target=void\ copy(int)
+numComments=2

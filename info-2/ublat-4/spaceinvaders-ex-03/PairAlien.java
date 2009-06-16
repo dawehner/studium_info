@@ -20,8 +20,15 @@ public class PairAlien implements IAliens{
     
     public void updatePosn() {
         // wenn erster alien zu weit links ist
-        if (this.firstElement().position.x < 10 || this.lastElement().position.x > 490) {
+        
+        if (this.firstElement().position.x < 10 && this.first.speed.x < 0) {
+            Posn new_speed = new Posn(- 1 * this.first.speed.x, this.first.speed.y);
+            this.addY(20);
+            this.setSpeed(new_speed);
+        }
+        else if(this.lastElement().position.x > 490 && this.first.speed.x > 0) {
             Posn new_speed = new Posn(-1 * this.first.speed.x, this.first.speed.y);
+            this.addY(20);
             this.setSpeed(new_speed);
         }
         
@@ -36,12 +43,17 @@ public class PairAlien implements IAliens{
     }
     
     public void setPosition(Posn speed) {
-        this.first.SetSpeed(speed);
-        this.rest.SetSpeed(speed);
+        this.first.setSpeed(speed);
+        this.rest.setSpeed(speed);
     }
     
-    public IAlien lastElement() {
-        if (this.rest.equals(new EmptyAlien())) {
+    public void addY(int value) {
+        this.first.addY(value);
+        this.rest.addY(value);
+    }
+    
+    public Alien lastElement() {
+        if (this.rest.count() == 0) {
             return this.first;
         }
         else {
@@ -49,7 +61,20 @@ public class PairAlien implements IAliens{
         }
     }
     
-    public IAlien firstElement() {
+    public Alien firstElement() {
         return this.first;
     }
+    
+    public int count() {
+        return 1+ this.rest.count();
+    }
+    
+    public boolean isLanded() {
+        return this.first.isLanded() || this.rest.isLanded();
+    }
+    
+    public PairShot randomShot(PairShot shots) {
+        return shots;
+    }
+
 }

@@ -11,4 +11,6 @@ public class EmptyShot implements IShots{
     public boolean draw(Canvas c){
         return true;
     }
+    public void updatePosn() {
+    }
 }

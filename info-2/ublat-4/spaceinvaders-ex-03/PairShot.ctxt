@@ -3,4 +3,5 @@ comment0.params=first\ rest
 comment0.target=PairShot(Shot,\ IShots)
 comment1.params=c
 comment1.target=boolean\ draw(Canvas)
-numComments=2
+comment2.target=void\ updatePosn()
+numComments=3
